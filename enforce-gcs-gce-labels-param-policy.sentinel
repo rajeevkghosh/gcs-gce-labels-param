@@ -18,12 +18,6 @@ if resource in ["bucket", "storage_bucket", "google_storage_bucket"] {
    a = "google_storage_bucket"
  }
 
-#else if resource is "bucket" {
- #  a= "google_storage_bucket"
- #}
-#else {
- #  print ("please select different value from  compute or bucket") 
-# }
 print(a)
 
 # List of mandatory labels
