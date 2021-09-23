@@ -10,7 +10,7 @@ resource "google_storage_bucket" "gcp_bucket" {
 
   labels = {
       env        =  "dev"
-      #foo        =  "bar"
+      foo        =  "bar"
     }
 }
 
