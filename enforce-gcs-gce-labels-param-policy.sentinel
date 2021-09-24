@@ -10,7 +10,7 @@ import "tfplan-functions" as plan
 param resource
 
 if resource in [ "compute", "compute_engine", "google_compute_engine"] {
-   a= "google_compute_engine"
+   a= "google_compute_instance"
  }
 
 if resource in ["bucket", "storage_bucket", "google_storage_bucket"] {
